@@ -1,0 +1,66 @@
+<!-- Start Menu-->
+<app-menu></app-menu>
+<!--End Menu-->
+<!-- Slide-->
+<app-slide></app-slide>
+<!-- Slide-->
+
+<div class="row">
+  <div class="col-lg-3">
+    <!-- User-->
+    <div class="card">
+      <div class="card-header">
+        User
+      </div>
+      <ul class="list-group list-group-flush">
+        <!--  Login Form-->
+        <form class="p-2">
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div style="display: flex;justify-content: space-around">
+            <button type="submit" class="btn btn-primary">Login</button>
+            <button type="submit" class="btn btn-primary">Register</button>
+          </div>
+        </form>
+        <!--  Login Form-->
+
+        <!--  welcome-->
+        <div style="display: flex; align-items: center; flex-direction: column">
+          <h2>Hello! Thang </h2>
+          <button type="submit" class="btn btn-primary">Logout</button>
+        </div>
+
+        <!--  welcome-->
+      </ul>
+    </div>
+    <!-- User-->
+
+    <!-- Category-->
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Cras justo odio
+        <span class="badge badge-primary badge-pill">14</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Dapibus ac facilisis in
+        <span class="badge badge-primary badge-pill">2</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Morbi leo risus
+        <span class="badge badge-primary badge-pill">1</span>
+      </li>
+    </ul>
+    <!-- Category-->
+  </div>
+
+  <div class="col-lg-9">
+    <router-outlet></router-outlet>
+  </div>
+
+</div>
+
+

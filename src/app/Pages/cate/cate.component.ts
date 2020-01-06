@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-cate',
@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CateComponent implements OnInit {
 
-  constructor() { }
+  name = 'thang';
+  objet = {id: 1, name: 'hnt'};
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
